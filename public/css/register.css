@@ -1,0 +1,69 @@
+.register{
+    background-color: var(--color-gris-claro);
+    box-sizing: border-box;
+}
+
+.register main form{
+    margin: 75px auto;
+}
+
+.register main form div{
+    margin: 15px auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+.register main form label{
+    font-weight: bold;
+}
+
+.register main form input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0;
+}
+
+.register main form input::placeholder{
+    padding-left: 10px;
+}
+
+.register main form input:focus{
+    outline-color: var(--color-gris-oscuro);
+}
+
+.register main form span{
+    display: none;
+    margin: 5px 0 0 5px;
+    color: red;
+}
+
+.register main form .perfil-de-usuario input{
+    height: auto;
+    width: auto;
+    margin: 15px 10px;
+}
+
+.register main form .perfil-de-usuario input:first-child{
+    margin-left: 0;
+}
+
+.register main form .intereses{
+    margin: 15px 0;
+}
+
+.register main form .intereses input{
+    height: auto;  
+    width: auto;
+    margin: 10px;
+}
+
+.register main form button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-celeste);
+    color: #fff;
+}

@@ -1,0 +1,119 @@
+header{
+    background-color: var(--color-amarillo);
+    font-size: 12px;
+}
+
+header section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+header section a{
+    width: 50vw;
+    max-width: 300px;
+}
+
+header .barra-de-busqueda{
+    position: relative;
+}
+
+header form{
+    display: flex;
+}
+
+header input{
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    height: 30px;
+}
+
+header input::placeholder{
+    padding-left: 5px;
+}
+
+header button{
+    border: none;
+    background: none;
+    font-size: 16px;
+    position: absolute;
+    left: 86%;
+    top: 20%;
+    color: var(--color-gris-oscuro);
+}
+
+header p{
+    text-align: center;
+    margin: 20px;
+}
+
+/* barra de navegacion */
+
+header nav{
+    display: none;
+}
+
+header nav ul{
+    margin-bottom: 25px;
+}
+
+header nav ul:last-child{
+    margin-bottom: 0;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu i{
+    background-color: var(--color-azul);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 17px;
+    padding: 10px;
+}
+
+@media (min-width: 361px){
+
+    /* header */
+
+    header section{
+        flex-wrap: nowrap;
+        margin: 0 20px;
+    }
+
+    header .barra-de-busqueda{
+        margin: 0 25px;
+    }
+
+    header input{
+        width: 100%;
+    }
+
+    /* nav */
+
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    header li{
+        margin: 25px 7px 0;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+    
+}

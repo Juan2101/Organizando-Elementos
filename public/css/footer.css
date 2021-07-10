@@ -1,0 +1,43 @@
+footer{
+    background-color: #fff;
+    padding: 50px 0 10px;
+}
+
+footer section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer i{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section:hover i{
+    color: #0022aa;
+}
+
+footer h4, footer p{
+    color: var(--color-gris-oscuro);
+    margin: 5px 0;
+}
+
+footer section p{
+    font-size: 12px;
+    width: 250px;
+    margin: auto;
+}
+
+footer .copyright{
+    font-size: 12px;
+    margin: 15px;
+}
+
+@media (min-width: 796px){
+
+    footer div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
